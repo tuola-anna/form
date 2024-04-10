@@ -7,6 +7,7 @@ export let formObj={
         placeholder:"login",
         reg:"[a-zA-Z]{6,}",
         required:"",
+        class:"input"
     },
     pwd:{
         tagName:"input",
@@ -15,11 +16,13 @@ export let formObj={
         placeholder:"password",
         reg:"\w{6,}",
         required:"",
+        class:"input"
     },
     politika:{
         tagName:"input",
         type:"checkbox",
         id:"politika",
         placeholder:"password",
+        class:"checkbox"
     }
 }

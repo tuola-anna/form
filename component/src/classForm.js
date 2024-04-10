@@ -26,6 +26,7 @@ export class Form{
             submit.setAttribute("type","submit");
             submit.textContent="send";
             submit.setAttribute("id","send");
+            submit.setAttribute("class","button");
             form.append(submit);
     }
 }
