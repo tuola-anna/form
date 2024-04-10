@@ -6,7 +6,7 @@ export class Form{
     }
     createFormHTML(){
         let form=document.createElement("form");
-        form.setAttribute("action","http://127.0.0.1:5500/");
+        form.setAttribute("action","");
         form.setAttribute("method","POST");
         document.body.append(form);
         let tag;
