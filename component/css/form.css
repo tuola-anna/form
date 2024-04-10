@@ -1,0 +1,10 @@
+input,button{
+    width:200px;
+    height:50px;
+    border:blue 1px solid;
+    border-radius: 10px;
+    font-size:1.2rem;
+}
+button{
+    background-color: aquamarine;
+}
